@@ -1,0 +1,21 @@
+/* HOME STYLE */
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+}
+.home__title {
+    font-size: 100px;
+    line-height: 100px;
+    margin-bottom: 40px;
+}
+.home__hugeText {
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}

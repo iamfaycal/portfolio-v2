@@ -1,0 +1,54 @@
+/* 
+    HEADER STYLE
+*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    padding: 60px 80px;
+}
+
+/*
+    MENU BUTTON
+*/
+.menuButton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.menuButton__bar1,
+.menuButton__bar2,
+.menuButton__bar3 {
+    width: 40px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #ddd;
+    margin: 3px 0;
+    transition: opacity 0.4s, transform 0.4s, width 0.2s;
+}
+.menuButton__bar3 {
+    width: 25px;
+}
+
+/* ROTATE FIRST BAR */
+.menuButton--close .menuButton__bar1 {
+    -webkit-transform: rotate(-45deg) translate(-10px, 5px);
+    transform: rotate(-45deg) translate(-10px, 5px);
+}
+
+/* FADE OUT THE SECOND BAR */
+.menuButton--close .menuButton__bar2 {
+    opacity: 0;
+}
+
+/* ROTATE LAST BAR */
+.menuButton--close .menuButton__bar3 {
+    width: 40px;
+    -webkit-transform: rotate(45deg) translate(-9px, -4px);
+    transform: rotate(45deg) translate(-9px, -4px);
+}

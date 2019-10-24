@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:700|Source+Sans+Pro:700&display=swap");
+
+/* RESET CSS */
+* {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background: #151515;
+    color: #ddd;
+}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 0 80px;
+}
+section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    width: 75%;
+    margin: 0 auto;
+}
+
+/* FONTS */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+p {
+    margin-top: 0;
+}
+.SourceSansPro {
+    font-family: "Source Sans Pro", sans-serif;
+}
+.Lato {
+    font-family: "Lato", sans-serif;
+}
+
+/* LINKS */
+a {
+    font-family: "Source Sans Pro", sans-serif;
+    text-decoration: none;
+    color: #ddd;
+}
+.underlineLink {
+    padding-bottom: 15px;
+    border-bottom: 4px solid #ddd;
+    font-size: 25px;
+}
+
+/* TRANSITION GROUP FADE */
+.fade-enter {
+    opacity: 0;
+    grid-area: main;
+}
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 0.5s ease 0.5s;
+}
+.fade-exit {
+    opacity: 1;
+    grid-area: main;
+}
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}

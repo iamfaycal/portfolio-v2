@@ -1,0 +1,79 @@
+/* CONTACT STYLE */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+}
+.contact__title {
+    font-size: 100px;
+    line-height: 100px;
+    margin-bottom: 40px;
+}
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+.contactForm__input,
+.contactForm__textarea {
+    border: none;
+    border-radius: 10px;
+    background-color: #202020;
+    color: #707070;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contactForm__textarea {
+    resize: none;
+    height: 200px;
+}
+.contactForm__consent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.contactForm__consentOriginalCheckbox {
+    position: absolute;
+    height: 35px;
+    width: 35px;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.contactForm__consentCheckbox {
+    min-width: 35px;
+    height: 35px;
+    border: 1px solid #707070;
+    border-radius: 8px;
+    margin-right: 15px;
+    z-index: -1;
+}
+.contactForm__consentOriginalCheckbox + .contactForm__consentCheckbox:after {
+    opacity: 0;
+    content: "\2713";
+    font-size: 30px;
+    position: absolute;
+    transform: translate(22%, -10%) rotate(20deg);
+    transition: opacity 0.1s ease-in-out, transform 0.2s ease-in-out;
+}
+.contactForm__consentOriginalCheckbox:checked
+    + .contactForm__consentCheckbox:after {
+    transform: translate(22%, -10%) rotate(0deg);
+    opacity: 1;
+}
+.contactForm__reCaptcha {
+    margin-bottom: 20px;
+}
+.contactForm__submit {
+    align-self: flex-start;
+    padding: 14px 42px;
+    border-radius: 10px;
+    background-color: #707070;
+    border: none;
+    color: #ddd;
+    font-size: 25px;
+    cursor: pointer;
+}
