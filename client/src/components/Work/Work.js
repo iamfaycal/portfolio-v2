@@ -6,7 +6,7 @@ const Work = () => {
     const [projects, setProjects] = useState();
 
     useEffect(() => {
-        const url = "http://api.faycalhammoudi.fr/wp-json/wp/v2/project";
+        const url = "//api.faycalhammoudi.fr/wp-json/wp/v2/project";
         fetch(url)
             .then(res => res.json())
             .then(data => setProjects(data));

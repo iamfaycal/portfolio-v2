@@ -7,8 +7,7 @@ const SingleWork = ({ match: { params } }) => {
 
     useEffect(() => {
         const url =
-            "https://api.faycalhammoudi.fr/wp-json/wp/v2/project?slug=" +
-            params.name;
+            "//api.faycalhammoudi.fr/wp-json/wp/v2/project?slug=" + params.name;
         fetch(url)
             .then(res => res.json())
             .then(data => {
