@@ -1,0 +1,16 @@
+@media screen and (min-width: 960px) {
+    .workItem {
+        width: 48%;
+    }
+    .workItem:nth-child(even) {
+        margin-top: 10%;
+    }
+    .workItem__title {
+        position: absolute;
+        margin: 0;
+        bottom: 30px;
+        left: 30px;
+        font-size: 40px;
+        transition: transform 0.2s ease-in-out, opacity 0.1s ease-in-out;
+    }
+}

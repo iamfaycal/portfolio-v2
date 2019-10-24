@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
-import "./Contact.css";
+
+import "./ContactSmartphone.css";
+import "./ContactDesktop.css";
 
 const Contact = () => {
     const recaptchaRef = React.createRef();
@@ -64,7 +66,7 @@ const Contact = () => {
 
     return (
         <section id="contact">
-            <h2 className="contact__title">restons en contact</h2>
+            <h2 className="sectionTitle">restons en contact</h2>
             <form className="contactForm" onSubmit={onSubmit}>
                 <input
                     className="contactForm__input SourceSansPro"

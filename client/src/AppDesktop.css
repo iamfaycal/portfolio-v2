@@ -1,0 +1,17 @@
+@media screen and (min-width: 960px) {
+    #wrapper {
+        padding: 0 80px;
+    }
+    section {
+        width: 75%;
+    }
+    .sectionTitle {
+        font-size: 100px;
+        line-height: 100px;
+        margin-bottom: 40px;
+    }
+    /* LINKS */
+    .underlineLink {
+        font-size: 25px;
+    }
+}

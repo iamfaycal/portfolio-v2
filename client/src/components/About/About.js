@@ -1,10 +1,12 @@
 import React from "react";
-import "./About.css";
+
+import "./AboutSmartphone.css";
+import "./AboutDesktop.css";
 
 const About = () => {
     return (
         <section id="about">
-            <h2 className="about__title">à propos</h2>
+            <h2 className="sectionTitle">à propos</h2>
             <p className="about__text">
                 Hello, je suis Fayçal, développeur web créatif
                 <br />

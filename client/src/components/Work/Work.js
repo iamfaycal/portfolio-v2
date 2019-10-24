@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
-import "./Work.css";
+
+import "./WorkSmartphone.css";
+import "./WorkDesktop.css";
+
 import { Link } from "react-router-dom";
 
 const Work = () => {
@@ -14,7 +17,7 @@ const Work = () => {
 
     return (
         <section id="work">
-            <h2 className="work__title">mes réalisations</h2>
+            <h2 className="sectionTitle">mes réalisations</h2>
             {projects && (
                 <div className="workGrid">
                     {projects.map(project => (

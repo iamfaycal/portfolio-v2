@@ -6,12 +6,7 @@
     justify-content: center;
     min-height: 100vh;
 }
-.about__title {
-    font-size: 100px;
-    line-height: 100px;
-    margin-bottom: 40px;
-}
 .about__text {
-    font-size: 40px;
-    line-height: 50px;
+    font-size: 22px;
+    line-height: 30px;
 }

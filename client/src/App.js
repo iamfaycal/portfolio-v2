@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 //import { CSSTransition, TransitionGroup } from "react-transition-group";
-import "./App.css";
+
+import "./AppSmartphone.css";
+import "./AppDesktop.css";
+
 import Header from "./components/Header/Header";
 import Menu from "./components/Menu/Menu";
 import Home from "./components/Home/Home";

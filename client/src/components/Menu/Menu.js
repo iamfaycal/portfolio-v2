@@ -1,6 +1,9 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import "./Menu.css";
+
+import "./MenuSmartphone.css";
+import "./MenuDesktop.css";
+
 import { toggleMenu } from "../../actions/menu";
 import { connect } from "react-redux";
 

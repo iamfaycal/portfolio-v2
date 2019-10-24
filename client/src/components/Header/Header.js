@@ -1,5 +1,8 @@
 import React from "react";
-import "./Header.css";
+
+import "./HeaderSmartphone.css";
+import "./HeaderDesktop.css";
+
 import { toggleMenu } from "../../actions/menu";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";

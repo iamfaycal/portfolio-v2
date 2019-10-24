@@ -43,7 +43,7 @@
     align-items: center;
 }
 .mainNavigation__item {
-    font-size: 100px;
+    font-size: 50px;
     color: #707070;
 }
 .mainNavigation__item:hover {

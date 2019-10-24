@@ -17,13 +17,13 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    padding: 0 80px;
+    padding: 0 50px;
 }
 section {
     display: flex;
     align-items: center;
     flex: 1;
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -47,6 +47,11 @@ p {
 .Lato {
     font-family: "Lato", sans-serif;
 }
+.sectionTitle {
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 40px;
+}
 
 /* LINKS */
 a {
@@ -57,7 +62,7 @@ a {
 .underlineLink {
     padding-bottom: 15px;
     border-bottom: 4px solid #ddd;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 /* TRANSITION GROUP FADE */

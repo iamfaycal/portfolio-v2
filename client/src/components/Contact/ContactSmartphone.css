@@ -6,15 +6,10 @@
     justify-content: center;
     min-height: 100vh;
 }
-.contact__title {
-    font-size: 100px;
-    line-height: 100px;
-    margin-bottom: 40px;
-}
 .contactForm {
     display: flex;
     flex-direction: column;
-    width: 65%;
+    max-width: 100%;
 }
 .contactForm__input,
 .contactForm__textarea {
@@ -23,7 +18,7 @@
     background-color: #202020;
     color: #707070;
     padding: 20px;
-    font-size: 30px;
+    font-size: 22px;
     margin-bottom: 20px;
 }
 .contactForm__textarea {
@@ -64,6 +59,9 @@
     transform: translate(22%, -10%) rotate(0deg);
     opacity: 1;
 }
+.contactForm__consentLabel {
+    text-align: justify;
+}
 .contactForm__reCaptcha {
     margin-bottom: 20px;
 }
@@ -76,4 +74,5 @@
     color: #ddd;
     font-size: 25px;
     cursor: pointer;
+    margin-bottom: 50px;
 }

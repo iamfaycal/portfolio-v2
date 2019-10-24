@@ -1,0 +1,9 @@
+@media screen and (min-width: 960px) {
+    .contactForm {
+        width: 65%;
+    }
+    .contactForm__input,
+    .contactForm__textarea {
+        font-size: 30px;
+    }
+}

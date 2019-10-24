@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
-import "./Home.css";
+
+import "./HomeSmartphone.css";
+import "./HomeDesktop.css";
+
 import Faycal from "../../assets/faycal.svg";
 
 const Home = ({ transValues }) => {

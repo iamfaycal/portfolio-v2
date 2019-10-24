@@ -1,0 +1,7 @@
+@media screen and (min-width: 960px) {
+    .home__title {
+        font-size: 100px;
+        line-height: 100px;
+        margin-bottom: 40px;
+    }
+}
