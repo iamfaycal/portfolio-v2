@@ -65,7 +65,9 @@
 .contactForm__reCaptcha {
     margin-bottom: 20px;
 }
-.contactForm__submit {
+.contactForm_submitGroup {
+    display: flex;
+    align-items: center;
     margin-bottom: 50px;
 }
 .contactForm__submit {
