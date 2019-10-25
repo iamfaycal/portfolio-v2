@@ -10,9 +10,11 @@ const About = () => {
             <p className="about__text">
                 Hello, je suis Fayçal, développeur web créatif
                 <br />
-                dans le secteur de Mulhouse. Je développe des
+                dans le secteur de Mulhouse. J'aide les petites entreprises
                 <br />
-                sites internet sur-mesure.
+                qui souhaitent se démarquer en ligne à créer
+                <br />
+                des expériences uniques pour leurs visiteurs.
             </p>
             <a className="underlineLink" href="#work">
                 voir mes dernières réalisations
