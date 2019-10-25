@@ -51,10 +51,12 @@ const Contact = () => {
             .then(res => {
                 if (res.status !== 200) {
                     res.text().then(text => {
+                        setAlert(text, "error");
                         console.log(text);
                     });
                 } else {
                     res.text().then(text => {
+                        setAlert(text, "success");
                         console.log(text);
                     });
                 }
@@ -62,6 +64,13 @@ const Contact = () => {
             .catch(err => console.log(err));
 
         setFormData(initialState);
+    };
+
+    const setAlert = (text, type) => {
+        document.querySelector(".contactForm__alert").innerHTML = text;
+        document
+            .querySelector(".contactForm__alert")
+            .classList.add("contactForm__alert--" + type);
     };
 
     return (
@@ -118,10 +127,13 @@ const Contact = () => {
                     theme="dark"
                     onChange={onCaptchaUpdate}
                 />
-                <input
-                    className="contactForm__submit SourceSansPro"
-                    type="submit"
-                />
+                <div className="contactForm_submitGroup">
+                    <input
+                        className="contactForm__submit SourceSansPro"
+                        type="submit"
+                    />
+                    <span className="contactForm__alert"></span>
+                </div>
             </form>
         </section>
     );

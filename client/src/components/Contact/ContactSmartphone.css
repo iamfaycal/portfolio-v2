@@ -74,5 +74,15 @@
     color: #ddd;
     font-size: 25px;
     cursor: pointer;
-    margin-bottom: 50px;
+    margin: 0 20px 50px 0;
+}
+.contactForm__alert {
+    font-size: 18px;
+}
+
+.contactForm__alert--success {
+    color: #aadd00;
+}
+.contactForm__alert--error {
+    color: #dd1000;
 }
