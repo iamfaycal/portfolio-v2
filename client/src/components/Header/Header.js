@@ -5,7 +5,7 @@ import "./HeaderDesktop.css";
 
 import { toggleMenu } from "../../actions/menu";
 import { connect } from "react-redux";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Header = ({ toggleMenu, menuVisible }) => {
     const onClick = e => {
