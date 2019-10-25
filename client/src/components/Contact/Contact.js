@@ -59,11 +59,10 @@ const Contact = () => {
                         setAlert(text, "success");
                         console.log(text);
                     });
+                    setFormData(initialState);
                 }
             })
             .catch(err => console.log(err));
-
-        setFormData(initialState);
     };
 
     const setAlert = (text, type) => {
