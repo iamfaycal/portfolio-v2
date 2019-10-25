@@ -35,6 +35,8 @@
 }
 .workItem__shadow {
     background-image: url("../../assets/shadow.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
     height: 100%;
     width: 100%;
