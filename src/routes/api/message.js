@@ -9,6 +9,7 @@ router.post("/", (req, res) => {
         req.body.name &&
         req.body.email &&
         req.body.message &&
+        req.body.dataConsent &&
         req.body.recaptcha
     ) {
         // ReCaptcha verification

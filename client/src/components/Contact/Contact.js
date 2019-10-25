@@ -71,6 +71,12 @@ const Contact = () => {
         document
             .querySelector(".contactForm__alert")
             .classList.add("contactForm__alert--" + type);
+        setTimeout(() => {
+            document
+                .querySelector(".contactForm__alert")
+                .classList.remove("contactForm__alert--" + type);
+            document.querySelector(".contactForm__alert").innerHTML = "";
+        }, 5000);
     };
 
     return (
