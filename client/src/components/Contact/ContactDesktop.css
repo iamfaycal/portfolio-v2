@@ -1,4 +1,7 @@
 @media screen and (min-width: 960px) {
+    #contact {
+        margin-bottom: 50px;
+    }
     .contactForm {
         width: 65%;
     }

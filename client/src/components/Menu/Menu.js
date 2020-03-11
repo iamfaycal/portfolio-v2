@@ -46,7 +46,15 @@ const Menu = ({ toggleMenu }) => {
                     contact
                 </Link>
             </nav>
-            <nav className="legalNavigation"></nav>
+            <nav className="legalNavigation">
+                <Link
+                    className="legalNavigation__item legal"
+                    to="/mentions-legales"
+                    onClick={e => navItemClicked(e)}
+                >
+                    mentions légales
+                </Link>
+            </nav>
         </section>
     );
 };

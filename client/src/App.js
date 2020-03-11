@@ -6,14 +6,29 @@ import "./AppSmartphone.css";
 import "./AppDesktop.css";
 
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import Menu from "./components/Menu/Menu";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Work from "./components/Work/Work";
 import SingleWork from "./components/Work/SingleWork";
 import Contact from "./components/Contact/Contact";
+import Legal from "./components/Legal/Legal";
+
+import consentUI from "tartemeringuee/consent-ui";
+import consentManager from "tartemeringuee/consent-manager";
+import getTextFR from "tartemeringuee/lang/fr";
+import gtag from "tartemeringuee/services/gtag";
 
 import { connect } from "react-redux";
+
+consentManager()
+    .register(gtag('UA-133179915-1'))
+    .setUI(
+        consentUI({
+            'getText': getTextFR( { 'privacyURL': '/mentions-legales/' } )
+        }))
+    .launch();
 
 function App({ menuVisible }) {
     const [transValues, setTransValues] = useState({
@@ -52,6 +67,11 @@ function App({ menuVisible }) {
                         component={SingleWork}
                     />
                     <Route
+                        exact
+                        path="/mentions-legales"
+                        component={Legal}
+                    />
+                    <Route
                         path="/"
                         render={() => (
                             <div className="components">
@@ -63,6 +83,7 @@ function App({ menuVisible }) {
                         )}
                     />
                 </Switch>
+                <Footer/>
             </Router>
         </div>
     );

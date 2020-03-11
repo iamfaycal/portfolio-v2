@@ -41,12 +41,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto 0 0;
 }
 .mainNavigation__item {
     font-size: 50px;
     color: #707070;
 }
-.mainNavigation__item:hover {
+.legalNavigation__item {
+    font-size: 20px;
+    color: #707070;
+    padding: 10px;
+}
+.mainNavigation__item:hover,
+.legalNavigation__item:hover {
     color: #ddd;
     text-decoration: line-through;
+}
+.legalNavigation {
+    display: flex;
+    margin-top: auto;
 }

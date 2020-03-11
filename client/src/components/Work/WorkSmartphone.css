@@ -11,6 +11,7 @@
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 .workItem {
     display: flex;

@@ -1,0 +1,15 @@
+#legal {
+    padding: 200px 0 80px;
+}
+#legal h1 {
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+#legal h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+#legal p {
+    text-align: justify;
+}
