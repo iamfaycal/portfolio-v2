@@ -1,0 +1,55 @@
+{
+  "_from": "tartemeringuee",
+  "_id": "tartemeringuee@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-fsc+8mpI7107cZQcEpJ7ptsXaEr9RPVOGuO6PZ1gZ1TnAigutbHiUSOs60T4v4vPisSwsB6ckjuqY+AkafUrnA==",
+  "_location": "/tartemeringuee",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "tartemeringuee",
+    "name": "tartemeringuee",
+    "escapedName": "tartemeringuee",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/tartemeringuee/-/tartemeringuee-1.1.1.tgz",
+  "_shasum": "ff39614245d1ea60b4770b136fa869a0c2cff779",
+  "_spec": "tartemeringuee",
+  "_where": "C:\\portfolio-v2",
+  "author": {
+    "name": "Maxime Cousinou"
+  },
+  "bugs": {
+    "url": "https://github.com/zemax/tartemeringuee/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/runtime": "^7.5.5",
+    "mf-js": "^2.0.3"
+  },
+  "deprecated": false,
+  "description": "Personnal tool to manage GDPR consent requests. Inspired by tarteaucitronjs, with Webpack and ES6 in mind.",
+  "homepage": "https://github.com/zemax/tartemeringuee#readme",
+  "keywords": [
+    "GDPR",
+    "ES6"
+  ],
+  "license": "MIT",
+  "main": "consent-manager.js",
+  "name": "tartemeringuee",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zemax/tartemeringuee.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.1"
+}

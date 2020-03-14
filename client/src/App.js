@@ -15,10 +15,10 @@ import SingleWork from "./components/Work/SingleWork";
 import Contact from "./components/Contact/Contact";
 import Legal from "./components/Legal/Legal";
 
-import consentUI from "tartemeringuee/consent-ui";
-import consentManager from "tartemeringuee/consent-manager";
-import getTextFR from "tartemeringuee/lang/fr";
-import gtag from "tartemeringuee/services/gtag";
+import consentUI from "./tartemeringuee/consent-ui";
+import consentManager from "./tartemeringuee/consent-manager";
+import getTextFR from "./tartemeringuee/lang/fr";
+import gtag from "./tartemeringuee/services/gtag";
 
 import { connect } from "react-redux";
 
