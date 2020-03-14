@@ -131,6 +131,7 @@ const Contact = () => {
                     sitekey="6Lc7WBIUAAAAAOmttgxELEfmxOaXgXd-MdGrqVSa"
                     theme="dark"
                     onChange={onCaptchaUpdate}
+                    size="normal"
                 />
                 <div className="contactForm_submitGroup">
                     <input

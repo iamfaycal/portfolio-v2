@@ -14,13 +14,14 @@
     .underlineLink {
         font-size: 25px;
     }
+    /* COOKIE BANNER */
     .consent-ui--banner {
-        padding: 20px 80px;
+        padding: 20px 200px;
     }
     .consent-ui--banner .consent-ui--close {
         position: absolute;
-        top: 20px;
-        right: 80px;
+        top: 15px;
+        right: 200px;
     }
     .consent-ui--details-modal {
         top: 50%;
